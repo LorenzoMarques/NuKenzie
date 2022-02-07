@@ -12,6 +12,24 @@
   list-style: none;
   position: relative;
 }
+.resumo-financeiro {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 39px;
+}
+.resumo-financeiro :nth-child(2) {
+  background-color: var(--color-primary);
+  color: white;
+}
+.resumo-financeiro button {
+  height: 40px;
+  border: unset;
+  cursor: pointer;
+  margin-left: 250px;
+  margin-right: -230px;
+  border-radius: 9px;
+  color: var(--gray-3);
+}
 
 .empty-card {
   width: 560px;
