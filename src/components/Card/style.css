@@ -1,0 +1,98 @@
+:root {
+  --color-primary: #fd377e;
+  --color-primmary-2: #e34981;
+  --color-secondary: #03b898;
+  --gray-4: #212529;
+  --gray-3: #868e96;
+  --gray-2: #e9ecef;
+  --gray-1: #f8f9fa;
+}
+
+.entrada {
+  position: relative;
+  width: 560px;
+  height: 87px;
+  background-color: var(--gray-1);
+  margin-left: 58px;
+  margin-bottom: 38px;
+  display: flex;
+  margin-top: 50px;
+  border-left: 5px solid var(--color-secondary);
+}
+
+.entrada span {
+  color: var(--gray-3);
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  margin-left: 20px;
+}
+
+.entrada p {
+  margin-left: 220px;
+  width: 100px;
+  position: absolute;
+  display: flex;
+  right: 50px;
+}
+
+.entrada h3 {
+  margin-left: 20px;
+}
+
+.saida {
+  position: relative;
+  width: 560px;
+  height: 87px;
+  background-color: var(--gray-1);
+  margin-left: 58px;
+  margin-bottom: 38px;
+  display: flex;
+  margin-top: 50px;
+  border-left: 5px solid var(--gray-2);
+}
+
+.saida span {
+  color: var(--gray-3);
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  margin-left: 20px;
+}
+
+.saida p {
+  margin-left: 220px;
+  width: 100px;
+  position: absolute;
+  display: flex;
+  right: 50px;
+}
+
+.saida h3 {
+  margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .entrada {
+    width: 360px;
+  }
+
+  .saida {
+    width: 360px;
+  }
+
+  .entrada p {
+    margin-left: 220px;
+    width: 70px;
+    position: absolute;
+    display: flex;
+    right: 50px;
+  }
+  .saida p {
+    margin-left: 220px;
+    width: 70px;
+    position: absolute;
+    display: flex;
+    right: 50px;
+  }
+}

@@ -1,0 +1,110 @@
+:root {
+  --color-primary: #fd377e;
+  --color-primmary-2: #e34981;
+  --color-secondary: #03b898;
+  --gray-4: #212529;
+  --gray-3: #868e96;
+  --gray-2: #e9ecef;
+  --gray-1: #f8f9fa;
+}
+.App {
+  text-align: center;
+}
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 48px;
+  color: var(--gray-4);
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  color: var(--gray-4);
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 26px;
+  color: var(--gray-4);
+}
+
+.App-header {
+  background-color: var(--gray-1);
+  display: flex;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+
+.App-header button {
+  width: 64px;
+  height: 40px;
+  margin-left: 60%;
+  margin-top: 20px;
+  color: var(--gray-3);
+  border: unset;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.img {
+  margin-top: 10px;
+}
+
+.main-container {
+  display: flex;
+  margin-left: 250px;
+}
+
+@media (max-width: 600px) {
+  .App {
+    text-align: center;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    color: var(--gray-4);
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+    color: var(--gray-4);
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 26px;
+    color: var(--gray-4);
+  }
+
+  .App-header {
+    background-color: var(--gray-1);
+    display: flex;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  }
+
+  .App-header button {
+    width: 64px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 15px;
+    color: var(--gray-3);
+    border: unset;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .img {
+    margin-top: 10px;
+  }
+
+  .main-container {
+    display: block;
+    margin-left: 0px;
+  }
+}

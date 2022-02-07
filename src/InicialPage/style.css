@@ -1,0 +1,423 @@
+:root {
+  --color-primary: #fd377e;
+  --color-primmary-2: #e34981;
+  --color-secondary: #03b898;
+  --gray-4: #212529;
+  --gray-3: #868e96;
+  --gray-2: #e9ecef;
+  --gray-1: #f8f9fa;
+}
+
+.inicial-page {
+  background-color: #282c34;
+  min-height: 100vh;
+  width: 1294px;
+}
+
+.inicial-page-header {
+  display: flex;
+}
+
+.box-01 {
+  margin-left: 150px;
+  padding-top: 160px;
+}
+
+.box-01 p {
+  margin-left: unset;
+}
+
+.box-01 h1 {
+  color: white;
+  width: 347px;
+  height: 144px;
+  font-size: 38px;
+  margin-bottom: 28px;
+}
+
+.box-01 span {
+  color: white;
+  font-size: 16px;
+}
+
+.box-01 button {
+  width: 240px;
+  height: 50px;
+  background-color: var(--color-primary);
+  border: unset;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 28px;
+}
+
+.logo {
+  background: url("../imagens/NuKenzieWhite.png") no-repeat;
+  margin-bottom: 30px;
+  width: 130px;
+  height: 30px;
+}
+
+.circle-01 {
+  width: 593px;
+  height: 593px;
+  background: rgba(224, 100, 204, 0.05);
+  border-radius: 100%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.circle-02 {
+  width: 493px;
+  height: 493px;
+  background: rgba(224, 100, 204, 0.05);
+  border-radius: 100%;
+  margin-left: 50px;
+  margin-top: 50px;
+  position: relative;
+}
+.circle-03 {
+  width: 393px;
+  height: 393px;
+  background: rgba(224, 100, 204, 0.05);
+  border-radius: 100%;
+  margin-left: 50px;
+  position: absolute;
+  top: 10%;
+}
+
+.card {
+  width: 256.21px;
+  height: 354.89px;
+  background: #ffffff;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.gray-rectangle {
+  width: 206px;
+  height: 36px;
+  background: #f3f3f3;
+  border-radius: 1.81069px;
+  margin-top: 30px;
+  margin-bottom: -10px;
+  margin-left: 20px;
+}
+
+.white-rectangle-01 {
+  width: 313.25px;
+  height: 93.25px;
+  background: #ffffff;
+  box-shadow: 0px 3.62137px 36.2137px rgba(0, 0, 0, 0.25);
+  border-radius: 3.62137px;
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  display: flex;
+}
+
+.white-rectangle-02 {
+  width: 231.79px;
+  height: 69px;
+  background: #ffffff;
+  box-shadow: 0px 2.67961px 26.7961px rgba(0, 0, 0, 0.25);
+  border-radius: 3.62137px;
+  position: absolute;
+  right: -20px;
+  bottom: 70px;
+  display: flex;
+}
+
+.pink-box {
+  width: 60.66px;
+  height: 57.94px;
+  background-color: var(--color-primmary-2);
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.pink-rectangle-01 {
+  width: 206.42px;
+  height: 15.39px;
+  background-color: #fceffa;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.pink-rectangle-02 {
+  width: 52.51px;
+  height: 15.39px;
+  background-color: #fceffa;
+  margin-top: 50px;
+  margin-left: -206px;
+}
+
+.green-box {
+  background: #66c085;
+  width: 44.88px;
+  height: 42.87px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.green-rectangle-01 {
+  width: 152.74px;
+  height: 11.39px;
+  background: rgba(102, 192, 133, 0.11);
+  border-radius: 1.33981px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.green-rectangle-02 {
+  width: 38.85px;
+  height: 11.39px;
+  background: rgba(102, 192, 133, 0.11);
+  border-radius: 1.33981px;
+  margin-top: 40px;
+  margin-left: -153px;
+}
+
+.pink-box-draw {
+  width: 20px;
+  height: 15px;
+  border: 2px solid #ffffff;
+  margin: auto;
+  margin-top: 18px;
+  border-radius: 3px;
+}
+
+.pink-box-draw div {
+  width: 22px;
+  height: 2px;
+  margin: auto;
+  margin-left: -1px;
+  margin-top: 3px;
+  background-color: white;
+}
+
+.green-box-draw {
+  width: 20px;
+  height: 15px;
+  border: 2px solid #ffffff;
+  margin: auto;
+  margin-top: 18px;
+  border-radius: 3px;
+}
+
+.green-box-draw div {
+  width: 22px;
+  height: 2px;
+  margin: auto;
+  margin-left: -1px;
+  margin-top: 3px;
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  .inicial-page {
+    background-color: #282c34;
+    width: 500px;
+  }
+
+  .inicial-page-header {
+    display: flex;
+  }
+
+  .box-01 {
+    margin-left: 40px;
+    padding-top: 100px;
+  }
+
+  .box-01 p {
+    margin-left: unset;
+  }
+
+  .box-01 h1 {
+    color: white;
+    width: 347px;
+    height: 144px;
+    font-size: 38px;
+    margin-bottom: 28px;
+  }
+
+  .box-01 span {
+    color: white;
+    font-size: 16px;
+  }
+
+  .box-01 button {
+    width: 240px;
+    height: 50px;
+    background-color: var(--color-primary);
+    border: unset;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 28px;
+  }
+
+  .logo {
+    background: url("../imagens/NuKenzieWhite.png") no-repeat;
+    margin-bottom: 30px;
+    width: 130px;
+    height: 30px;
+  }
+
+  .circle-01 {
+    width: 0px;
+    height: 0px;
+    background: rgba(224, 100, 204, 0.05);
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .circle-02 {
+    width: 0px;
+    height: 0px;
+    background: rgba(224, 100, 204, 0.05);
+    border-radius: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: relative;
+  }
+  .circle-03 {
+    width: 0px;
+    height: 0px;
+    background: rgba(224, 100, 204, 0.05);
+    border-radius: 100%;
+    margin-left: 50px;
+    position: absolute;
+    top: 10%;
+  }
+
+  .card {
+    width: 0px;
+    height: 0px;
+    background: unset;
+    margin-left: unset;
+    display: unset;
+    flex-direction: unset;
+    position: unset;
+  }
+
+  .gray-rectangle {
+    width: unset;
+    height: unset;
+    background: unset;
+    border-radius: unset;
+    margin-top: unset;
+    margin-bottom: unset;
+    margin-left: unset;
+  }
+
+  .white-rectangle-01 {
+    width: 0px;
+    height: 0px;
+    background: unset;
+    box-shadow: unset;
+    border-radius: unset;
+    position: unset;
+    right: unset;
+    bottom: unset;
+    display: unset;
+  }
+
+  .white-rectangle-02 {
+    width: 0px;
+    height: 0px;
+    background: unset;
+    box-shadow: unset;
+    border-radius: unset;
+    position: unset;
+    display: unset;
+  }
+
+  .pink-box {
+    width: 0px;
+    height: 0px;
+    background-color: unset;
+    margin-top: unset;
+    margin-left: unset;
+  }
+
+  .pink-rectangle-01 {
+    width: 0px;
+    height: 0px;
+    background-color: unset;
+    margin-top: unset;
+    margin-left: unset;
+  }
+
+  .pink-rectangle-02 {
+    width: 0px;
+    height: 0px;
+    background-color: unset;
+    margin-top: unset;
+    margin-left: unset;
+  }
+
+  .green-box {
+    width: 0px;
+    height: 0px;
+    height: unset;
+    margin-top: unset;
+    margin-left: unset;
+  }
+
+  .green-rectangle-01 {
+    width: 0px;
+    height: 0px;
+    background: unset;
+    border-radius: unset;
+    margin-top: unset;
+    margin-left: unset;
+  }
+
+  .green-rectangle-02 {
+    width: 0px;
+    height: 0px;
+    background: unset;
+    margin-top: unset;
+    margin-left: unset;
+  }
+
+  .pink-box-draw {
+    width: 0px;
+    height: 0px;
+    border: unset;
+    margin: unset;
+    margin-top: unset;
+    border-radius: unset;
+  }
+
+  .pink-box-draw div {
+    width: 0px;
+    height: 0px;
+    margin: unset;
+    margin-left: unset;
+    margin-top: unset;
+    background-color: unset;
+  }
+
+  .green-box-draw {
+    width: 0px;
+    height: 0px;
+    border: unset;
+    margin: unset;
+    margin-top: unset;
+    border-radius: unset;
+  }
+
+  .green-box-draw div {
+    width: 0px;
+    height: 0px;
+    margin: unset;
+    margin-left: unset;
+    margin-top: unset;
+    background-color: unset;
+  }
+}

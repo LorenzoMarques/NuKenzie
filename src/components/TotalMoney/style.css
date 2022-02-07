@@ -1,0 +1,23 @@
+:root {
+  --color-primary: #fd377e;
+  --color-primmary-2: #e34981;
+  --color-secondary: #03b898;
+  --gray-4: #212529;
+  --gray-3: #868e96;
+  --gray-2: #e9ecef;
+  --gray-1: #f8f9fa;
+}
+
+.total-money {
+  background: var(--color-primmary-2);
+  width: 350px;
+  height: 68px;
+  margin: auto;
+  color: white;
+  display: flex;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 22px;
+  align-items: center;
+  justify-content: center;
+}
