@@ -1,13 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import InicialPage from "./InicialPage/InicialPage";
+import InicialPage from "./Pages/InicialPage/InicialPage";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <InicialPage />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );

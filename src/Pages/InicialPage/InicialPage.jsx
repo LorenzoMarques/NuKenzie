@@ -1,9 +1,12 @@
 import "./style.css";
 import ReactDOM from "react-dom";
-import React, { useState } from "react";
-import App from "../App";
+import React from "react";
+import MainPage from "../MainPage/MainPage";
+import { useHistory } from "react-router-dom";
 
 function InicialPage() {
+  const history = useHistory();
+
   return (
     <div className="inicial-page">
       <div className="inicial-page-header">
@@ -14,18 +17,7 @@ function InicialPage() {
           </h1>
           <span>de forma rápida e segura </span>
           <div>
-            <button
-              onClick={() =>
-                ReactDOM.render(
-                  <React.StrictMode>
-                    <App />
-                  </React.StrictMode>,
-                  document.getElementById("root")
-                )
-              }
-            >
-              Iniciar
-            </button>
+            <button onClick={() => history.push("/mainPage")}>Iniciar</button>
           </div>
         </div>
         <div className="circle-01">
