@@ -71,6 +71,7 @@
     height: 50px;
     background-color: var(--gray-1);
     margin: auto;
+    margin-left: 50px;
     margin-bottom: 36px;
     display: flex;
     flex-direction: column;
@@ -113,6 +114,16 @@
     cursor: pointer;
     margin: auto;
     margin-top: 30px;
+    border-radius: 9px;
+    color: var(--gray-3);
+  }
+
+  .resumo-financeiro button {
+    height: 40px;
+    border: unset;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 20px;
     border-radius: 9px;
     color: var(--gray-3);
   }
