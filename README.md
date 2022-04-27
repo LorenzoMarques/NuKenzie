@@ -8,3 +8,8 @@
 # Sobre a Aplicação
 
 <p>Nu Kenzie é uma aplicação para gestão financeira</p>
+
+# Link no Vercel
+
+https://react-entrega-s1-nu-kenzie-lorenzomarques-lorenzomarques.vercel.app/
+
