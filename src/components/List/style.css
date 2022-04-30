@@ -58,7 +58,7 @@
   margin-left: -250px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .list {
     list-style: none;
     position: relative;
@@ -116,6 +116,12 @@
     margin-top: 30px;
     border-radius: 9px;
     color: var(--gray-3);
+  }
+
+  h2 {
+    justify-self: center;
+    width: 400px;
+    margin-left: 25px;
   }
 
   .resumo-financeiro button {

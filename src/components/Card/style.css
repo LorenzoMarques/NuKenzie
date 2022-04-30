@@ -72,7 +72,7 @@
   margin-left: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .entrada {
     width: 360px;
   }

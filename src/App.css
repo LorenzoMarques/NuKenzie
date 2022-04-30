@@ -58,7 +58,7 @@ h3 {
   margin-left: 10%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .App {
     text-align: center;
   }
