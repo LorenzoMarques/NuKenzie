@@ -1,11 +1,15 @@
 import "./style.css";
 import ReactDOM from "react-dom";
-import React from "react";
+import React, { useEffect } from "react";
 import MainPage from "../MainPage/MainPage";
 import { useHistory } from "react-router-dom";
 
 function InicialPage({ setColor }) {
   const history = useHistory();
+
+  useEffect(() => {
+    setColor("#282c34");
+  }, []);
 
   return (
     <div className="inicial-page">
@@ -19,7 +23,6 @@ function InicialPage({ setColor }) {
           <div>
             <button
               onClick={() => {
-                setColor("white");
                 history.push("/mainPage");
               }}
             >

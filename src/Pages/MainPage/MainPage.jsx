@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Form from "../../components/Form/Form";
 import TotalMoney from "../../components/TotalMoney/TotalMoney";
 import List from "../../components/List/List";
@@ -9,6 +9,10 @@ const MainPage = ({ setColor }) => {
   const [listTransactions, setListTransactions] = useState([]);
   const history = useHistory();
 
+  useEffect(() => {
+    setColor("white");
+  }, []);
+
   return (
     <>
       <header className="App-header">
@@ -17,7 +21,6 @@ const MainPage = ({ setColor }) => {
         </figure>
         <button
           onClick={() => {
-            setColor("#282c34");
             history.push("/");
           }}
         >
