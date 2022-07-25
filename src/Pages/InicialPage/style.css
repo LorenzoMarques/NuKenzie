@@ -8,11 +8,6 @@
   --gray-1: #f8f9fa;
 }
 
-.inicial-page {
-  background-color: #282c34;
-  min-height: 100vh;
-}
-
 .inicial-page-header {
   display: flex;
 }
@@ -217,7 +212,6 @@
 
 @media (max-width: 600px) {
   .inicial-page {
-    background-color: #282c34;
     width: 500px;
   }
 
@@ -418,13 +412,5 @@
     margin-left: unset;
     margin-top: unset;
     background-color: unset;
-  }
-}
-
-@media (min-width: 600px) {
-  .inicial-page {
-    background-color: #282c34;
-    min-height: 100vh;
-    min-width: 1200px;
   }
 }

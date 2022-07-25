@@ -4,7 +4,7 @@ import React from "react";
 import MainPage from "../MainPage/MainPage";
 import { useHistory } from "react-router-dom";
 
-function InicialPage() {
+function InicialPage({ setColor }) {
   const history = useHistory();
 
   return (
@@ -17,7 +17,14 @@ function InicialPage() {
           </h1>
           <span>de forma rápida e segura </span>
           <div>
-            <button onClick={() => history.push("/mainPage")}>Iniciar</button>
+            <button
+              onClick={() => {
+                setColor("white");
+                history.push("/mainPage");
+              }}
+            >
+              Iniciar
+            </button>
           </div>
         </div>
         <div className="circle-01">

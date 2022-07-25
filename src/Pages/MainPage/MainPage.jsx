@@ -5,7 +5,7 @@ import List from "../../components/List/List";
 import NuKenzie from "../../imagens/NuKenzieBlack.png";
 import { useHistory } from "react-router-dom";
 
-const MainPage = () => {
+const MainPage = ({ setColor }) => {
   const [listTransactions, setListTransactions] = useState([]);
   const history = useHistory();
 
@@ -15,7 +15,14 @@ const MainPage = () => {
         <figure>
           <img src={NuKenzie} alt="Nu Kenzie" className="img" />
         </figure>
-        <button onClick={() => history.push("/")}>Inicio</button>
+        <button
+          onClick={() => {
+            setColor("#282c34");
+            history.push("/");
+          }}
+        >
+          Inicio
+        </button>
       </header>
       <div className="App">
         <div className="main-container">

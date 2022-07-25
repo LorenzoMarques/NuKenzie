@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import InicialPage from "./Pages/InicialPage/InicialPage";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
