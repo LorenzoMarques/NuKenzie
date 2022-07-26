@@ -7,6 +7,7 @@ import { useHistory } from "react-router-dom";
 
 const MainPage = ({ setColor }) => {
   const [listTransactions, setListTransactions] = useState([]);
+
   const history = useHistory();
 
   useEffect(() => {
@@ -36,7 +37,10 @@ const MainPage = ({ setColor }) => {
             />
             <TotalMoney lisTransactions={listTransactions} />
           </div>
-          <List listTransactions={listTransactions} />
+          <List
+            listTransactions={listTransactions}
+            setListTransactions={setListTransactions}
+          />
         </div>
       </div>
     </>

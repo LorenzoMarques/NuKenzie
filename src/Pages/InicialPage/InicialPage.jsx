@@ -1,7 +1,5 @@
 import "./style.css";
-import ReactDOM from "react-dom";
 import React, { useEffect } from "react";
-import MainPage from "../MainPage/MainPage";
 import { useHistory } from "react-router-dom";
 
 function InicialPage({ setColor }) {

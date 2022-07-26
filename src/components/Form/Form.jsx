@@ -5,7 +5,7 @@ const Form = ({ listTransactions, setListTransactions }) => {
   const addList = (transaction) => {
     setListTransactions([...listTransactions, transaction]);
   };
-  console.log(listTransactions);
+
   const createTransaction = (description, type, value) => {
     if (type === "saida" && value > 0) {
       value = -value;
